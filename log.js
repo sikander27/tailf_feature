@@ -1,6 +1,6 @@
 
 function printLog(logBoard, logMessage) {
-    const logElement = document.createElement("p");
+    const logElement = document.createElement("li");
     logElement.innerText = logMessage;
     logBoard.append(logElement)
 }
